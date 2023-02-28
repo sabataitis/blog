@@ -1,0 +1,27 @@
+:root {
+    --bg_color: #1D2021;
+    --text_primary: #FBF1C7;
+    --text_orange: #FB4934;
+    --text_purple: #D3869B;
+    --text_yellow: #FABD2F;
+}
+
+.content .text {
+    color: var(--text_primary);
+    font-size: 1rem;
+};
+
+.content .heading {
+    color: var(--text_yellow);
+    font-size: 2rem;
+}
+
+.content .subheading {
+    color: var(--text_purple);
+    font-size: 1.5rem;
+}
+
+.content .highlight {
+    color: var(--text_yellow);
+}
+

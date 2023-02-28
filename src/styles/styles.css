@@ -1,0 +1,44 @@
+:root {
+    --bg_color: #282828;
+    --text_primary: #ebdbb2;
+    --text_orange: #d65d0e;
+    --text_purple: #b16286;
+    --text_yellow: #d79921;
+    --text_green: #98971a;
+    --text_gray: #a89984;
+    --text_red: #cc241d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg_color);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2.5rem;
+}
+
+.content .text {
+    color: var(--text_primary);
+    font-size: 1rem;
+}
+
+.content .heading {
+    color: var(--text_yellow);
+    font-size: 2rem;
+}
+
+.content .subheading {
+    color: var(--text_purple);
+    font-size: 1.5rem;
+}
+
+.content .highlight {
+    color: var(--text_yellow);
+}
+
