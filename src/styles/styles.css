@@ -17,9 +17,17 @@ body {
   background-color: var(--bg_color);
 }
 
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 .content {
     display: flex;
     flex-direction: column;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
     padding: 2rem 2.5rem;
 }
 
@@ -41,4 +49,16 @@ body {
 .content .highlight {
     color: var(--text_yellow);
 }
+
+.content .link {
+    color: var(--text_primary);
+    font-size: 1.5rem;
+}
+
+.content .link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
 
